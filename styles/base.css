@@ -15,11 +15,45 @@ nav ul {
 }
 
 
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+h1, h2, h3 {
+    font-family: 'Gowun Batang', serif; 
+}
+
+p {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400; 
+}
+
+strong {
+    font-weight: 700; 
+}
+
+header nav a {
+    color: white; 
+    text-decoration: none; 
+    font-family: 'Open Sans', sans-serif; 
+}
+
+header {
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
 header,
 footer,
 main {
     margin: 0 auto;
     max-width: 840px;
+}
+
+section a {
+    text-decoration: none;
 }
 
 nav a {
@@ -45,10 +79,15 @@ section {
     margin: 5px;
 }
 
+h1 {
+    font-size: 22px;
+}
+
 h2 {
     background-color: blue;
     color: wheat;
     padding: 10px;
+    font-size: 18px;
 }
 
 .paragraph {
@@ -77,4 +116,5 @@ main {
 header {
     box-sizing: border-box;
     background-color: blue;
+    height: 90px;
 }
