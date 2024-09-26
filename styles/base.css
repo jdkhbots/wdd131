@@ -52,6 +52,19 @@ main {
     max-width: 840px;
 }
 
+footer {
+    box-sizing: border-box;
+    background-color: blue;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px; 
+    color: white; 
+    margin: 5px 0; 
+}
+
 section a {
     text-decoration: none;
 }
@@ -85,7 +98,7 @@ h1 {
 
 h2 {
     background-color: blue;
-    color: wheat;
+    color: whitesmoke;
     padding: 10px;
     font-size: 18px;
 }
