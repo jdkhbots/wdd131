@@ -41,7 +41,7 @@ header nav a {
 header {
     color: white;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 
