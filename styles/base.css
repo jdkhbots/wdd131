@@ -7,18 +7,19 @@ nav {
 }
 
 
-
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+
 }
+
 
 header,
 footer,
 main {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 840px;
 }
 
 nav a {
@@ -39,38 +40,20 @@ section {
     /* Container width */
     border: 2px solid #333;
     /* Border around the sections */
-    padding: 0;
-    border-radius: 10px;
-}
-
-/* Section 1 should take more space */
-.section1 {
-    flex-grow: 1;
-    /* This section grows and occupies the remaining space */
-    padding: 20px;
-}
-
-/* Section 2 takes only the space it needs */
-.section2 {
-    flex-shrink: 1;
-    /* This section shrinks to fit its content */
-    padding: 20px;
-}
-
-/* Style for the h2 headings */
-h2 {
-    background-color: #007BFF;
-    /* Background color for headings */
     padding: 10px;
-
+    border-radius: 10px;
+    margin: 5px;
 }
 
 h2 {
     background-color: blue;
+    color: wheat;
+    padding: 10px;
 }
 
-main image {
-    float: right;
+.paragraph {
+    display: flex;
+    align-items: flex-start;
 }
 
 h3 {
